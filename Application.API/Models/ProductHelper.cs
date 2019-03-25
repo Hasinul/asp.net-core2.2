@@ -20,6 +20,12 @@ namespace Application.API.Models
                 Id=2,
                 Name="C# best book",
                 Description ="It's a good book"
+            },
+            new Product()
+            {
+                Id=3,
+                Name="PHP best book",
+                Description ="It's a good book"
             }
         };
         public static Product AddProduct(Product product)
