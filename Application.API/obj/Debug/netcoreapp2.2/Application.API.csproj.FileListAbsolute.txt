@@ -11,4 +11,5 @@ E:\C# Practice\Taposh\Bangladesh_Core2\Application.API\obj\Debug\netcoreapp2.2\A
 E:\C# Practice\Taposh\Bangladesh_Core2\Application.API\obj\Debug\netcoreapp2.2\Application.API.RazorTargetAssemblyInfo.cache
 E:\C# Practice\Taposh\Bangladesh_Core2\Application.API\obj\Debug\netcoreapp2.2\Application.API.dll
 E:\C# Practice\Taposh\Bangladesh_Core2\Application.API\obj\Debug\netcoreapp2.2\Application.API.pdb
-E:\C# Practice\Taposh\Bangladesh_Core2\Application.API\obj\Debug\netcoreapp2.2\Application.API.csprojAssemblyReference.cache
+E:\C# Practice\Taposh\Bangladesh_Core2\Application.API\bin\Debug\netcoreapp2.2\Application.API.xml
+E:\C# Practice\Taposh\Bangladesh_Core2\Application.API\obj\Debug\netcoreapp2.2\Application.API.xml

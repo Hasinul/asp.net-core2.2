@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Application.API</name>
+    </assembly>
+    <members>
+        <member name="M:Application.API.Controllers.ProductController.Get">
+            <summary>
+            Get all Products.
+            </summary>
+        </member>
+        <member name="M:Application.API.Controllers.ProductController.Get(System.Int32)">
+            <summary>
+            Get a specific Product.
+            </summary>
+            <param name="id"></param> 
+        </member>
+        <member name="M:Application.API.Controllers.ProductController.Post(Application.API.Models.Product)">
+             <summary>
+             Creates a Product.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Product
+                 {
+                    "name": "Item1",
+                    "description": "Good book";
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:Application.API.Controllers.ProductController.Put(System.Int32,Application.API.Models.Product)">
+            <summary>
+            Update a specific Product.
+            </summary>
+            <param name="id"></param>       
+        </member>
+        <member name="M:Application.API.Controllers.ProductController.Delete(System.Int32)">
+            <summary>
+            Deletes a specific Product.
+            </summary>
+            <param name="id"></param>       
+        </member>
+    </members>
+</doc>

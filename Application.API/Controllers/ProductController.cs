@@ -12,35 +12,58 @@ namespace Application.API.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        // GET: api/Product
+        /// <summary>
+        /// Get all Products.
+        /// </summary>
         [HttpGet]
         public ActionResult Get()
         {
             return Ok(ProductHelper.Get());
         }
 
-        // GET: api/Product/5
+        /// <summary>
+        /// Get a specific Product.
+        /// </summary>
+        /// <param name="id"></param> 
         [HttpGet("{id}", Name = "Get")]
         public ActionResult Get(int id)
         {
             return Ok(ProductHelper.GetAProduct(id));
         }
 
-        // POST: api/Product
+        /// <summary>
+        /// Creates a Product.
+        /// </summary>
+        /// <remarks>
+        /// Sample request:
+        ///
+        ///     POST /Product
+        ///     {
+        ///        "name": "Item1",
+        ///        "description": "Good book";
+        ///     }
+        ///
+        /// </remarks>
         [HttpPost]
         public ActionResult Post([FromBody] Product product)
         {
             return Ok(ProductHelper.AddProduct(product));
         }
 
-        // PUT: api/Product/5
+        /// <summary>
+        /// Update a specific Product.
+        /// </summary>
+        /// <param name="id"></param>       
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] Product product)
         {
             return Ok(ProductHelper.Update(id, product));
         }
 
-        // DELETE: api/ApiWithActions/5
+        /// <summary>
+        /// Deletes a specific Product.
+        /// </summary>
+        /// <param name="id"></param>       
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
